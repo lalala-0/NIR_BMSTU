@@ -1,0 +1,21 @@
+%! Author = vyleg
+%! Date = 23.11.2023
+
+% Preamble
+\documentclass[a4paper,14pt, unknownkeysallowed]{extreport}
+
+% Packages
+\include{parts/packages}
+\usepackage{pdfpages}
+
+% Document
+\begin{document}
+   \includepdf{parts/01-title.pdf}
+
+   \include{parts/02-contents}
+   \include{parts/03-introduction}
+   \include{parts/04-save}
+   \include{parts/05-prognose}
+   \include{parts/06-conclusion}
+   \include{parts/sources}
+\end{document}
